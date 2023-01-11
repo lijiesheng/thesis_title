@@ -70,7 +70,7 @@ func main() {
 		c.JSON(200, gin.H{
 			"data":       thesisList,
 			"total":      count,
-			"pageNumber": pageNumber,
+			"pageNumber": pageNumberInt,
 			"pageIndex":  pageIndexInt,
 		})
 	})
