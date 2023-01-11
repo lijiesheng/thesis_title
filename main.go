@@ -57,8 +57,21 @@ func main() {
 			titleSplitList := strings.Split(thesisList[i].Title, "/")
 			thesisList[i].Title = titleSplitList[len(titleSplitList)-1]
 		}
+
+		// 4、查询总数
+		var count int
+		sql = `select count(*) count from thesis_title where title like ?`
+		err = mysql.Db.Get(&count, sql, "%"+theisName+"%")
+		if err != nil {
+			fmt.Printf("get failed, err:%v\n", err)
+			return
+		}
+
 		c.JSON(200, gin.H{
-			"data": thesisList,
+			"data":       thesisList,
+			"total":      count,
+			"pageNumber": pageNumber,
+			"pageIndex":  pageIndexInt,
 		})
 	})
 
