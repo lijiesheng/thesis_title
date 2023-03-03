@@ -19,7 +19,7 @@ import (
 
 func main() {
 	//GetFiles("/Users/mac/Downloads/论文/成稿1库/21年1万份稿子")
-	//GetFiles("/Users/mac/Downloads/论文/成稿3库")
+	//GetFiles("/Users/mac/Downloads/论文/2021年成稿库2.zip等多个文件")
 }
 
 // 获取文件名称
