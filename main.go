@@ -4,7 +4,10 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
+	"io"
+	"log"
 	"net/http"
+	"os"
 	"strconv"
 	"strings"
 	"thesis_title/model"
@@ -19,7 +22,27 @@ import (
  **/
 func main() {
 	// 创建一个默认的路由引擎
-	r := gin.Default()
+	r := gin.New()
+	r.Use(gin.Recovery())
+	f, _ := os.OpenFile("./app01.log", os.O_CREATE|os.O_APPEND|os.O_RDWR, 0644)
+
+	var conf = gin.LoggerConfig{
+		Formatter: func(param gin.LogFormatterParams) string {
+			return fmt.Sprintf("客户端IP:%s,请求时间:[%s],请求方式:%s,请求地址:%s,http协议版本:%s,请求状态码:%d,响应时间:%s,客户端:%s，错误信息:%s\n",
+				param.ClientIP,
+				param.TimeStamp.Format("2006年01月02日 15:03:04"),
+				param.Method,
+				param.Path,
+				param.Request.Proto,
+				param.StatusCode,
+				param.Latency,
+				param.Request.UserAgent(),
+				param.ErrorMessage,
+			)
+		},
+		Output: io.MultiWriter(os.Stdout, f),
+	}
+	r.Use(gin.LoggerWithConfig(conf))
 
 	r.GET("/hello", func(c *gin.Context) {
 		// c.JSON：返回JSON格式的数据
@@ -31,8 +54,11 @@ func main() {
 	r.GET("/get_theis_title", Cors, func(c *gin.Context) {
 		// 1、获取参数
 		theisName := c.DefaultQuery("theis_name", "单片机")
+		log.Printf("theisName=%s", theisName)
 		pageNumber := c.DefaultQuery("page_number", "20")
+		log.Printf(",pageNumber=%s", pageNumber)
 		pageIndex := c.DefaultQuery("page_index", "1")
+		log.Printf(",pageIndex=%s", pageIndex)
 
 		// 2、整理参数
 		pageIndexInt, err := strconv.Atoi(pageIndex)
@@ -48,12 +74,43 @@ func main() {
 
 		// 3、返回结果
 		var thesisList []model.Thesis
-		sql := `select id,title,size,type, size_int from thesis_title where title like ? limit ?,?`
-		err = mysql.Db.Select(&thesisList, sql, "%"+theisName+"%", (pageIndexInt-1)*pageNumberInt, pageNumberInt)
-		if err != nil {
-			fmt.Printf("query failed, err:%v\n", err)
-			return
+		theisNameList := strings.Fields(theisName)
+		sql := ``
+
+		if len(theisNameList) >= 4 {
+			sql := `select id,title,size,type, size_int from thesis_title where title like ? and title like ? and title like ?  and title like ? limit ?,?`
+			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", "%"+theisNameList[2]+"%", "%"+theisNameList[3]+"%",
+				(pageIndexInt-1)*pageNumberInt, pageNumberInt)
+			if err != nil {
+				fmt.Printf("query failed, err:%v\n", err)
+				return
+			}
 		}
+		if len(theisNameList) == 3 {
+			sql := `select id,title,size,type, size_int from thesis_title where title like ? and title like ? and title like ? limit ?,?`
+			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", "%"+theisNameList[2]+"%", (pageIndexInt-1)*pageNumberInt, pageNumberInt)
+			if err != nil {
+				fmt.Printf("query failed, err:%v\n", err)
+				return
+			}
+		}
+		if len(theisNameList) == 2 {
+			sql := `select id,title,size,type, size_int from thesis_title where title like ? and title like ? limit ?,?`
+			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", (pageIndexInt-1)*pageNumberInt, pageNumberInt)
+			if err != nil {
+				fmt.Printf("query failed, err:%v\n", err)
+				return
+			}
+		}
+		if len(theisNameList) == 1 {
+			sql := `select id,title,size,type, size_int from thesis_title where title like ? limit ?,?`
+			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", (pageIndexInt-1)*pageNumberInt, pageNumberInt)
+			if err != nil {
+				fmt.Printf("query failed, err:%v\n", err)
+				return
+			}
+		}
+
 		for i := 0; i < len(thesisList); i++ {
 			titleSplitList := strings.Split(thesisList[i].Title, "/")
 			thesisList[i].Title = titleSplitList[len(titleSplitList)-1]
