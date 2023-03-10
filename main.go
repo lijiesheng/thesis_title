@@ -61,6 +61,7 @@ func main() {
 		log.Printf(",pageNumber=%s", pageNumber)
 		pageIndex := c.DefaultQuery("page_index", "1")
 		log.Printf(",pageIndex=%s", pageIndex)
+		count := 0
 
 		// 2、整理参数
 		pageIndexInt, err := strconv.Atoi(pageIndex)
@@ -77,7 +78,6 @@ func main() {
 		// 3、返回结果
 		var thesisList []model.Thesis
 		theisNameList := strings.Fields(theisName)
-		sql := ``
 
 		if len(theisNameList) >= 4 {
 			sql := `select id,title,size,type, size_int from thesis_title where title like ? and title like ? and title like ?  and title like ? limit ?,?`
@@ -85,6 +85,13 @@ func main() {
 				(pageIndexInt-1)*pageNumberInt, pageNumberInt)
 			if err != nil {
 				fmt.Printf("query failed, err:%v\n", err)
+				return
+			}
+			// 4、查询总数
+			sql = `select count(*) count from thesis_title where title like ? and title like ? and title like ?  and title like ? `
+			err = mysql.Db.Get(&count, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", "%"+theisNameList[2]+"%", "%"+theisNameList[3]+"%")
+			if err != nil {
+				fmt.Printf("get failed, err:%v\n", err)
 				return
 			}
 		}
@@ -95,6 +102,13 @@ func main() {
 				fmt.Printf("query failed, err:%v\n", err)
 				return
 			}
+			// 4、查询总数
+			sql = `select count(*) count from thesis_title where title like ? and title like ? and title like ?`
+			err = mysql.Db.Get(&count, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", "%"+theisNameList[2]+"%")
+			if err != nil {
+				fmt.Printf("get failed, err:%v\n", err)
+				return
+			}
 		}
 		if len(theisNameList) == 2 {
 			sql := `select id,title,size,type, size_int from thesis_title where title like ? and title like ? limit ?,?`
@@ -103,12 +117,26 @@ func main() {
 				fmt.Printf("query failed, err:%v\n", err)
 				return
 			}
+			// 4、查询总数
+			sql = `select count(*) count from thesis_title where title like ? and title like ? `
+			err = mysql.Db.Get(&count, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%")
+			if err != nil {
+				fmt.Printf("get failed, err:%v\n", err)
+				return
+			}
 		}
 		if len(theisNameList) == 1 {
 			sql := `select id,title,size,type, size_int from thesis_title where title like ? limit ?,?`
 			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", (pageIndexInt-1)*pageNumberInt, pageNumberInt)
 			if err != nil {
 				fmt.Printf("query failed, err:%v\n", err)
+				return
+			}
+			// 4、查询总数
+			sql = `select count(*) count from thesis_title where title like ?`
+			err = mysql.Db.Get(&count, sql, "%"+theisNameList[0]+"%")
+			if err != nil {
+				fmt.Printf("get failed, err:%v\n", err)
 				return
 			}
 		}
@@ -124,15 +152,6 @@ func main() {
 		for i := 0; i < len(thesisList); i++ {
 			titleSplitList := strings.Split(thesisList[i].Title, "/")
 			thesisList[i].Title = titleSplitList[len(titleSplitList)-1]
-		}
-
-		// 4、查询总数
-		var count int
-		sql = `select count(*) count from thesis_title where title like ?`
-		err = mysql.Db.Get(&count, sql, "%"+theisName+"%")
-		if err != nil {
-			fmt.Printf("get failed, err:%v\n", err)
-			return
 		}
 
 		c.JSON(200, gin.H{
