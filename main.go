@@ -26,6 +26,8 @@ func main() {
 	r.Use(gin.Recovery())
 	f, _ := os.OpenFile("./app01.log", os.O_CREATE|os.O_APPEND|os.O_RDWR, 0644)
 
+	log.SetOutput(f)
+	log.SetFlags(log.Llongfile | log.Lmicroseconds | log.Ldate)
 	var conf = gin.LoggerConfig{
 		Formatter: func(param gin.LogFormatterParams) string {
 			return fmt.Sprintf("客户端IP:%s,请求时间:[%s],请求方式:%s,请求地址:%s,http协议版本:%s,请求状态码:%d,响应时间:%s,客户端:%s，错误信息:%s\n",

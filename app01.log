@@ -21,3 +21,17 @@
 客户端IP:::1,请求时间:[2023年03月10日 18:06:25],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%8F%82%E6%95%B0%E8%BE%A8%E8%AF%86%20%E6%89%A9%E5%B1%95%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%20%E7%94%B5%E6%9C%BA%20%E7%94%B5%E6%9C%BA%20%E5%8E%9F%E6%96%87&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:256.253735ms,客户端:PostmanRuntime/7.30.0，错误信息:
 客户端IP:::1,请求时间:[2023年03月10日 18:06:31],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%8F%82%E6%95%B0%E8%BE%A8%E8%AF%86%20%E6%89%A9%E5%B1%95%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%20%E7%94%B5%E6%9C%BA%20%E7%94%B5%E6%9C%BA%20%E5%8E%9F%E6%96%87&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:7.102112332s,客户端:PostmanRuntime/7.30.0，错误信息:
 客户端IP:::1,请求时间:[2023年03月10日 18:06:32],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:6.320956862s,客户端:PostmanRuntime/7.30.0，错误信息:
+客户端IP:::1,请求时间:[2023年03月10日 18:06:38],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:54.2607ms,客户端:PostmanRuntime/7.30.0，错误信息:
+客户端IP:::1,请求时间:[2023年03月10日 18:06:40],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:50.320877ms,客户端:PostmanRuntime/7.30.0，错误信息:
+2023/03/10 18:43:19.866296 /Users/mac/工作/goland/my_github/thesis_title/main.go:59: theisName=
+2023/03/10 18:43:19.866433 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
+2023/03/10 18:43:19.866447 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月10日 18:06:43],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:52.617228ms,客户端:PostmanRuntime/7.30.0，错误信息:
+2023/03/10 18:43:31.090655 /Users/mac/工作/goland/my_github/thesis_title/main.go:59: theisName=
+2023/03/10 18:43:31.090689 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
+2023/03/10 18:43:31.090703 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月10日 18:06:43],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:50.139815ms,客户端:PostmanRuntime/7.30.0，错误信息:
+2023/03/10 18:43:40.438014 /Users/mac/工作/goland/my_github/thesis_title/main.go:59: theisName=aa
+2023/03/10 18:43:40.438055 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
+2023/03/10 18:43:40.438069 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月10日 18:06:43],请求方式:GET,请求地址:/get_theis_title?theis_name=aa&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:144.850949ms,客户端:PostmanRuntime/7.30.0，错误信息:
