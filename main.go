@@ -110,6 +110,14 @@ func main() {
 				return
 			}
 		}
+		if len(theisNameList) == 0 {
+			sql := `select id,title,size,type, size_int from thesis_title limit ?,?`
+			err = mysql.Db.Select(&thesisList, sql, (pageIndexInt-1)*pageNumberInt, pageNumberInt)
+			if err != nil {
+				fmt.Printf("query failed, err:%v\n", err)
+				return
+			}
+		}
 
 		for i := 0; i < len(thesisList); i++ {
 			titleSplitList := strings.Split(thesisList[i].Title, "/")
