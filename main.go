@@ -147,6 +147,14 @@ func main() {
 				fmt.Printf("query failed, err:%v\n", err)
 				return
 			}
+
+			// 4、查询总数
+			sql = `select count(*) count from thesis_title`
+			err = mysql.Db.Get(&count, sql)
+			if err != nil {
+				fmt.Printf("get failed, err:%v\n", err)
+				return
+			}
 		}
 
 		for i := 0; i < len(thesisList); i++ {
