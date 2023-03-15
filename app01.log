@@ -35,3 +35,585 @@
 2023/03/10 18:43:40.438055 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
 2023/03/10 18:43:40.438069 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
 客户端IP:::1,请求时间:[2023年03月10日 18:06:43],请求方式:GET,请求地址:/get_theis_title?theis_name=aa&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:144.850949ms,客户端:PostmanRuntime/7.30.0，错误信息:
+2023/03/10 18:54:14.625206 /Users/mac/工作/goland/my_github/thesis_title/main.go:59: theisName=aa
+2023/03/10 18:54:14.626014 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
+2023/03/10 18:54:14.626034 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月10日 18:06:54],请求方式:GET,请求地址:/get_theis_title?theis_name=aa&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:147.522347ms,客户端:PostmanRuntime/7.30.0，错误信息:
+2023/03/10 18:54:25.210119 /Users/mac/工作/goland/my_github/thesis_title/main.go:59: theisName=aa 1
+2023/03/10 18:54:25.210158 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
+2023/03/10 18:54:25.210167 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月10日 18:06:54],请求方式:GET,请求地址:/get_theis_title?theis_name=aa%201&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:169.634918ms,客户端:PostmanRuntime/7.30.0，错误信息:
+2023/03/10 18:54:34.606883 /Users/mac/工作/goland/my_github/thesis_title/main.go:59: theisName=aa pdf
+2023/03/10 18:54:34.606915 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
+2023/03/10 18:54:34.606924 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月10日 18:06:54],请求方式:GET,请求地址:/get_theis_title?theis_name=aa%20pdf&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:149.619725ms,客户端:PostmanRuntime/7.30.0，错误信息:
+2023/03/10 18:54:46.053294 /Users/mac/工作/goland/my_github/thesis_title/main.go:59: theisName=aa pdf 3
+2023/03/10 18:54:46.053336 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
+2023/03/10 18:54:46.053351 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月10日 18:06:54],请求方式:GET,请求地址:/get_theis_title?theis_name=aa%20pdf%203&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:153.55353ms,客户端:PostmanRuntime/7.30.0，错误信息:
+2023/03/10 18:55:24.427656 /Users/mac/工作/goland/my_github/thesis_title/main.go:59: theisName=aa pdf 3
+2023/03/10 18:55:25.383999 /Users/mac/工作/goland/my_github/thesis_title/main.go:61: ,pageNumber=10
+2023/03/10 18:55:26.893873 /Users/mac/工作/goland/my_github/thesis_title/main.go:63: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月10日 18:06:56],请求方式:GET,请求地址:/get_theis_title?theis_name=aa%20pdf%203&page_number=10&page_index=1,http协议版本:HTTP/1.1,请求状态码:200,响应时间:47.384317741s,客户端:PostmanRuntime/7.30.0，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:05],请求方式:GET,请求地址:/000a7b86f6d7f0ff2866.hot-update.json,http协议版本:HTTP/1.1,请求状态码:404,响应时间:148ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:05],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:519ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:05],请求方式:GET,请求地址:/favicon.ico,http协议版本:HTTP/1.1,请求状态码:404,响应时间:128ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:10],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:156ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:10],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:184ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:10],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:182ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:10],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:112ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:11],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:120ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:11],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:221ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:11],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:146ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:11],请求方式:GET,请求地址:/,http协议版本:HTTP/1.1,请求状态码:404,响应时间:107ns,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:14:09.934219 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:14:09.934256 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:14:09.934269 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:14],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.431344ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:14:12.137232 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:14:12.137252 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:14:12.137259 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:14],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:22.574116ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:14:18.734680 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:14:18.734700 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:14:18.734707 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:14],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.195412ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:14:25.046074 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:14:25.046105 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:14:25.046114 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:14],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.2665ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:14:55.316894 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=12
+2023/03/14 19:14:55.316926 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:14:55.316937 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:14],请求方式:GET,请求地址:/get_theis_title?theis_name=12&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:134.222074ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:15:39.031548 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:15:39.031581 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:15:39.031594 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:15],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.582428ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:15:47.523127 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:15:47.523777 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:15:47.523796 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:15],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.496515ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:17:05.062566 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:17:05.063431 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:17:05.063445 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:17],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:45.596237ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:18:16.316292 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:18:16.316503 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:18:16.316522 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:22.956982ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:18:28.145595 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:18:28.147417 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:18:28.147431 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:24.668746ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/download?search=.DS_Store,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.370657082s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:922.313738ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/download?search=1821290037%E6%9D%8E%E9%99%88%E5%B2%A9%E5%90%88%E8%82%A5%E5%8D%8E%E5%8A%9B%E9%A3%9F%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%AD%98%E8%B4%A7%E7%AE%A1%E7%90%86%E4%B8%AD%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E5%AF%B9%E7%AD%96_%E5%8E%9F%E6%96%87%E5%AF%B9%E7%85%A7%E6%8A%A5%E5%91%8A.pdf,http协议版本:HTTP/1.1,请求状态码:200,响应时间:303.316038ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:18:46.998678 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:18:46.998710 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:18:46.998722 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.084021ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:18:49.926240 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:18:49.926292 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:18:49.926301 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=3
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=3&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.363756ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/download?search=0218F3+%E6%A0%BC%E5%BC%8F%E5%B7%B2%E5%AE%8C%E6%88%903.20%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E4%BC%81%E4%B8%9A%E5%BC%80%E6%8B%93%E5%9B%BD%E9%99%85%E5%B8%82%E5%9C%BA%E7%9A%84%E6%80%9D%E8%80%83.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:723.885049ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:18:59.397359 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:18:59.397387 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:18:59.397394 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:18],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:24.866633ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:19],请求方式:GET,请求地址:/download?search=0218f3%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E5%AF%B9%E4%BC%A0%E7%BB%9F%E9%9B%B6%E5%94%AE%E4%B8%9A%E7%9A%84%E5%BD%B1%E5%93%8D%E5%8F%8A%E5%8F%91%E5%B1%95%E7%AD%96%E7%95%A5%E5%88%86%E6%9E%90.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:294.508446ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:26:47.960455 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:26:47.961350 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:26:47.961370 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:26],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:251.62229ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:26:49.570034 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:26:49.570068 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:26:49.570081 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:26],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:248.429529ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:26:50.582320 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:26:50.582443 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:26:50.582465 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:26],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:251.601491ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:26:50.834871 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:26:50.834915 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:26:50.834934 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:26],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:258.932842ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:26:51.094916 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:26:51.094942 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:26:51.094954 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:26],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:249.621577ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:26:59.548619 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:26:59.549481 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:26:59.549494 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:26],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:248.027897ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:27:00.019395 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:27:00.019423 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:27:00.019431 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:27],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:248.856122ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:27:00.269296 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:27:00.269340 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:27:00.269362 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:27],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:249.171943ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:27:00.519941 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:27:00.519963 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:27:00.519972 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月14日 19:07:27],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:251.075832ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:27:08.310687 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:27:08.311224 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:27:08.311249 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:27],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.755832ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:27:10.934214 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:27:10.934246 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:27:10.934255 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:27],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:260.956222ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:27:12.652415 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:27:12.652444 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:27:12.652454 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:27],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:246.99874ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:27],请求方式:GET,请求地址:/download?search=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:974.394508ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:28],请求方式:GET,请求地址:/download?search=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.21089352s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:30:27.990896 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:30:27.991126 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:30:27.991139 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:30],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:24.650209ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:30:30.578823 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:30:30.578879 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:30:30.578905 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:30],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:31.290888ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:30:42.806226 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:30:42.806253 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:30:42.806262 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:30],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:246.938972ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:30],请求方式:GET,请求地址:/download?search=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:993.591872ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:30:47.483224 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:30:47.483252 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:30:47.483261 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:30],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.365375ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:30],请求方式:GET,请求地址:/download?search=.DS_Store,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.044364169s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:30:58.395963 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:30:58.395991 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:30:58.396002 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:30],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:250.618262ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:30:59.622086 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:30:59.622113 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:30:59.622122 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:30],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:251.051792ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:31:00.209727 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:31:00.209761 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:31:00.209777 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:31],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:246.817131ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:31:00.457119 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:31:00.457148 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:31:00.457221 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:31],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:250.866305ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:31:00.709009 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:31:00.709042 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:31:00.709059 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:31],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:252.917095ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:31:00.962794 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=6.26滋源洗发品牌微信公众号营销策略研究(1)(1)(1)(1).docx
+2023/03/14 19:31:00.962813 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:31:00.962823 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:31],请求方式:GET,请求地址:/get_theis_title?theis_name=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:259.898489ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:31],请求方式:GET,请求地址:/download?search=6.26%E6%BB%8B%E6%BA%90%E6%B4%97%E5%8F%91%E5%93%81%E7%89%8C%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%90%A5%E9%94%80%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6(1)(1)(1)(1).docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:989.794525ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:31:07.951700 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:31:07.951734 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:31:07.951745 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:31],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:36.262118ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:32],请求方式:GET,请求地址:/download?search=.DS_Store,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.014060886s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:32],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.010502665s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:32:24.547587 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:32:24.547628 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:32:24.547641 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:32],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:22.988461ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:32],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:891.804366ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:33:01.864925 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:33:01.864958 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:33:01.864972 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:33],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.341113ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:36],请求方式:GET,请求地址:/download?search=.DS_Store,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.023468314s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:36],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:901.269867ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:37],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.057941711s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:39],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.046650894s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:39:46.241631 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:39:46.241663 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:39:46.241674 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.241977ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:41],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:964.681208ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 19:41:53.058622 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 19:41:53.058650 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 19:41:53.058659 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 19:07:41],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:22.8447ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 19:07:45],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:3.077511983s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 20:46:21.022192 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 20:46:21.022720 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 20:46:21.022736 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 20:08:46],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:25.583634ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 20:52:14.336733 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 20:52:14.336766 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 20:52:14.336776 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 20:08:52],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:22.101876ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 20:52:18.499731 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 20:52:18.499772 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 20:52:18.499790 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 20:08:52],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:24.625767ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 20:08:52],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.376072717s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 20:52:23.610946 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 20:52:23.610979 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 20:52:23.610995 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 20:08:52],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:22.992124ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 20:08:52],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.026423662s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 20:52:46.683675 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 20:52:46.683732 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 20:52:46.683743 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 20:08:52],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.098389ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 20:08:52],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:864.064768ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 20:08:53],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:918.999445ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 21:01:49.502695 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 21:01:49.502716 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 21:01:49.502724 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 21:09:01],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:24.131863ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 21:09:01],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.192059276s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 21:02:08.596631 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 21:02:08.596680 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 21:02:08.596691 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 21:09:02],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:22.279109ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 21:09:02],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:965.340674ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 21:03:36.661462 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 21:03:36.661508 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 21:03:36.661541 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 21:09:03],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:22.218854ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 21:09:03],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.083548161s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 21:09:31.580930 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 21:09:31.580985 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 21:09:31.581002 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 21:09:09],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.060866ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 21:09:09],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:953.670143ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 21:10:48.902507 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 21:10:48.902547 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 21:10:48.902562 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 21:09:10],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.234988ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 21:09:10],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.216070651s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 21:12:34.267947 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 21:12:34.268656 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 21:12:34.268675 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 21:09:12],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:24.593556ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 21:09:12],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:912.483855ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 21:13:55.771485 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 21:13:55.771526 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 21:13:55.771541 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 21:09:13],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:23.184477ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 21:09:14],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:934.22435ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/14 21:14:10.320163 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/14 21:14:10.320194 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/14 21:14:10.320206 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月14日 21:09:14],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:21.889392ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月14日 21:09:14],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:947.207298ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/15 09:16:23.818620 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 09:16:23.819252 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 09:16:23.819268 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 09:09:16],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:69.95978ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月15日 09:09:16],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.194903371s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36，错误信息:
+2023/03/15 09:58:53.803681 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 09:58:53.803834 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 09:58:53.803846 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 09:09:58],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:19.961339ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月15日 09:09:58],请求方式:GET,请求地址:/download?search=100th%E6%9F%90%E5%8F%AF%E4%B9%90%E5%85%AC%E5%8F%B8%E6%B1%A1%E6%B0%B4%E5%A4%84%E7%90%86%E8%AE%BE%E8%AE%A1.docx,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.258423431s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:21:01.697274 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:21:01.697450 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:21:01.697470 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:21],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:5.448301ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:21:06.661537 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:21:06.662118 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:21:06.662135 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:21],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:4.191352ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:21:08.923566 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:21:08.923594 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:21:08.923603 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:21],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:3.948626ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:22:05.182232 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:22:05.182345 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:22:05.182355 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:22],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:209.572559ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:22:10.938141 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:22:10.938177 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:22:10.938208 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=5
+客户端IP:::1,请求时间:[2023年03月15日 10:10:22],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=5&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:198.921773ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:22:11.893348 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:22:11.893375 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:22:11.893382 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=7
+客户端IP:::1,请求时间:[2023年03月15日 10:10:22],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=7&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:190.246575ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:22:13.028889 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:22:13.028910 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:22:13.028932 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+客户端IP:::1,请求时间:[2023年03月15日 10:10:22],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=8&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:190.290674ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:22:22.973586 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:22:22.973618 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:22:22.973629 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+客户端IP:::1,请求时间:[2023年03月15日 10:10:22],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=8&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:553.388116ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:22:31.883699 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:22:31.883738 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:22:31.883757 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+客户端IP:::1,请求时间:[2023年03月15日 10:10:22],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=8&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:188.981887ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:22:36.652783 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=玉米
+2023/03/15 10:22:36.652806 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:22:36.652815 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+客户端IP:::1,请求时间:[2023年03月15日 10:10:22],请求方式:GET,请求地址:/get_theis_title?theis_name=%E7%8E%89%E7%B1%B3&page_index=8&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:301.155062ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:22:40.996538 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:22:40.996570 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:22:40.996583 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+客户端IP:::1,请求时间:[2023年03月15日 10:10:22],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=8&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:545.9928ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:23:10.394110 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:23:12.148895 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:23:14.074485 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+客户端IP:::1,请求时间:[2023年03月15日 10:10:23],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=8&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:42.380680802s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:25:35.302704 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:25:35.303319 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:25:35.865192 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+2023/03/15 10:29:15.291886 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:29:15.292940 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:29:15.810786 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+2023/03/15 10:30:03.178396 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:03.178835 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:03.178848 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:317.811805ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:05.002292 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:05.002326 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:05.002345 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=2
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=2&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:375.597275ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:06.081200 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:06.081233 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:06.081244 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:449.328223ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:07.172404 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:07.172448 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:07.172459 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=6
+2023/03/15 10:30:07.668937 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:07.668973 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:07.668986 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=7
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=6&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:548.2207ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=7&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:571.340592ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:09.309726 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:09.309753 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:09.309761 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=6
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=6&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:531.061219ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:10.985695 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:10.985725 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=10
+2023/03/15 10:30:10.985734 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=6
+2023/03/15 10:30:10.989780 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:10.989815 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=10
+2023/03/15 10:30:10.989829 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=6&page_number=10,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.04197589s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=4&page_number=10,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1.044040448s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:15.239834 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:15.239876 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:15.239901 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:456.253967ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:17.308504 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:17.308824 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:17.308835 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:315.348964ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:23.270428 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:30:23.270452 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:23.270461 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:189.783003ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:40.268392 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=100th 设计
+2023/03/15 10:30:40.269270 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:40.269287 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=100th+%E8%AE%BE%E8%AE%A1&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:542.861457ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:46.299115 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:30:46.299149 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:46.299162 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:189.555138ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:48.067320 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:30:48.067358 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:48.067373 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:190.156955ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:53.825311 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc 分析
+2023/03/15 10:30:53.825339 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:53.825349 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+%E5%88%86%E6%9E%90&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:547.247205ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:30:57.390516 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:30:57.390544 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:30:57.390553 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:30],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:447.370776ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:31:03.173855 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc 估计
+2023/03/15 10:31:03.173892 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:31:03.173905 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:31],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+%E4%BC%B0%E8%AE%A1&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:540.543375ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:31:05.052267 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc 估计
+2023/03/15 10:31:05.052297 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:31:05.052307 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:31],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+%E4%BC%B0%E8%AE%A1&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:557.585393ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:31:24.889875 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc 估计
+2023/03/15 10:31:24.890034 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:31:25.912709 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:33],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+%E4%BC%B0%E8%AE%A1&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:1m47.239663753s,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:23.881736 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc 估计
+2023/03/15 10:35:23.881996 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:23.882008 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+%E4%BC%B0%E8%AE%A1&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:551.411752ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:28.458684 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc 估计
+2023/03/15 10:35:28.458708 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:28.458717 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+%E4%BC%B0%E8%AE%A1&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:539.91397ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:35.456306 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=so
+2023/03/15 10:35:35.456341 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:35.456351 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=so&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:294.176694ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:36.773455 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=so
+2023/03/15 10:35:36.773485 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:36.773497 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=so&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:293.676961ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:42.643670 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc 估计
+2023/03/15 10:35:42.643717 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:42.643727 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+%E4%BC%B0%E8%AE%A1&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:540.29177ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:50.069093 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:35:50.069126 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:50.069139 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:188.483526ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:51.431212 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:35:51.431245 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:51.431256 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:189.609436ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:52.074019 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:35:52.074054 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:52.074080 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:189.811661ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:35:58.731091 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:35:58.731580 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:35:58.731601 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:35],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:267.079856ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:01.791953 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:36:01.791989 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:01.792002 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:283.474184ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:02.983144 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:36:02.983170 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:02.983179 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:267.070818ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:06.326398 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:36:06.326442 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:06.326460 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:266.935333ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:08.158147 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:36:08.158176 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:08.158186 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:270.941221ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:09.239198 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:36:09.239229 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:09.239246 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:268.919958ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:09.947461 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:36:09.947494 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:09.947507 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:266.917932ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:10.215165 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:36:10.215197 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:10.215215 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:266.110085ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:11.736231 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 
+2023/03/15 10:36:11.736260 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:11.736269 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:266.949013ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:19.116601 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 效率
+2023/03/15 10:36:19.116932 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:19.116948 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+%E6%95%88%E7%8E%87&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:527.211063ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:22.501814 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=回收 效率
+2023/03/15 10:36:22.501846 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:22.501856 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%9B%9E%E6%94%B6+%E6%95%88%E7%8E%87&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:524.747788ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:36:55.970107 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:36:55.970296 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:36:55.970308 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:36],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:190.85311ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:37:05.689941 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:37:05.690908 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:37:05.690924 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=5
+客户端IP:::1,请求时间:[2023年03月15日 10:10:37],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=5&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:190.588991ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:37:08.929034 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc
+2023/03/15 10:37:08.929072 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:37:08.929084 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=5
+客户端IP:::1,请求时间:[2023年03月15日 10:10:37],请求方式:GET,请求地址:/get_theis_title?theis_name=soc&page_index=5&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:477.678788ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:37:15.521257 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc doc
+2023/03/15 10:37:15.521775 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:37:15.521795 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=5
+客户端IP:::1,请求时间:[2023年03月15日 10:10:37],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+doc&page_index=5&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:549.025183ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:37:18.110152 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc doc
+2023/03/15 10:37:18.110184 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:37:18.110193 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:37],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+doc&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:447.746385ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:37:19.967271 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc doc
+2023/03/15 10:37:19.967330 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:37:19.967347 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=2
+客户端IP:::1,请求时间:[2023年03月15日 10:10:37],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+doc&page_index=2&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:539.66986ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:37:21.451487 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc doc
+2023/03/15 10:37:21.451521 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:37:21.451533 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:37],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+doc&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:448.414786ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:10.082121 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:39:10.082842 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:10.082865 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:191.014732ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:11.774533 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:39:11.774567 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:11.774580 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:188.251178ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:17.704591 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:39:17.704624 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:17.704633 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=5
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=5&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:189.951903ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:23.114833 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=soc 估计
+2023/03/15 10:39:23.114864 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:23.114876 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=soc+%E4%BC%B0%E8%AE%A1&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:542.440816ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:28.235857 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:39:28.236378 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:28.236402 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:190.124663ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:29.472695 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:39:29.472725 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:29.472734 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:189.299719ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:30.542136 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:39:30.542168 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:30.542179 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=5
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=5&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:189.754335ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:34.512311 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:39:34.512343 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:34.512356 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=6
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=6&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:190.289854ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:37.267216 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=
+2023/03/15 10:39:37.267244 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:37.267253 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=8
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=&page_index=8&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:192.203466ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:43.341351 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=玉米
+2023/03/15 10:39:43.342249 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:43.342264 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=%E7%8E%89%E7%B1%B3&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:268.465529ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:45.087047 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=玉米
+2023/03/15 10:39:45.087106 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:45.087122 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=%E7%8E%89%E7%B1%B3&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:298.188448ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:39:58.754369 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=大厂
+2023/03/15 10:39:58.754597 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:39:58.754623 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:39],请求方式:GET,请求地址:/get_theis_title?theis_name=%E5%A4%A7%E5%8E%82&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:528.658448ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:40:06.302418 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=互联网
+2023/03/15 10:40:06.302526 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:40:06.302541 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:40],请求方式:GET,请求地址:/get_theis_title?theis_name=%E4%BA%92%E8%81%94%E7%BD%91&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:266.823303ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:40:07.821033 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=互联网
+2023/03/15 10:40:07.821063 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:40:07.821074 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=4
+客户端IP:::1,请求时间:[2023年03月15日 10:10:40],请求方式:GET,请求地址:/get_theis_title?theis_name=%E4%BA%92%E8%81%94%E7%BD%91&page_index=4&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:278.854183ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:40:08.777605 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=互联网
+2023/03/15 10:40:08.777637 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:40:08.777650 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=5
+客户端IP:::1,请求时间:[2023年03月15日 10:10:40],请求方式:GET,请求地址:/get_theis_title?theis_name=%E4%BA%92%E8%81%94%E7%BD%91&page_index=5&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:276.774734ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
+2023/03/15 10:40:11.161950 /Users/mac/工作/goland/my_github/thesis_title/main.go:74: theisName=互联网
+2023/03/15 10:40:11.161983 /Users/mac/工作/goland/my_github/thesis_title/main.go:76: ,pageNumber=5
+2023/03/15 10:40:11.161996 /Users/mac/工作/goland/my_github/thesis_title/main.go:78: ,pageIndex=1
+客户端IP:::1,请求时间:[2023年03月15日 10:10:40],请求方式:GET,请求地址:/get_theis_title?theis_name=%E4%BA%92%E8%81%94%E7%BD%91&page_index=1&page_number=5,http协议版本:HTTP/1.1,请求状态码:200,响应时间:267.073652ms,客户端:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36，错误信息:
