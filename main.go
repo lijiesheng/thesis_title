@@ -1,17 +1,26 @@
 package main
 
 import (
+	"context"
+	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"io"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
 	"strings"
+	"thesis_title/downloadsdk/download"
 	"thesis_title/model"
 	"thesis_title/mysql"
+	openapi "thesis_title/openxpanapi"
+)
+
+const (
+	MyAccessToken = "121.1cfecd99c9e82abd64c23f26ccb1b719.YCwlE_VEjvelgcQe2wSrbTIHWDQxA5etpC87Tbp.3AL_qA"
 )
 
 /**
@@ -20,7 +29,13 @@ import (
  * @Date 2023/1/10 4:52 PM
  * 框架 Gin
  **/
+type DownRes struct {
+	Name string `json:"name"`
+	Url  string `json:"url"`
+}
+
 func main() {
+
 	// 创建一个默认的路由引擎
 	r := gin.New()
 	r.Use(gin.Recovery())
@@ -80,7 +95,7 @@ func main() {
 		theisNameList := strings.Fields(theisName)
 
 		if len(theisNameList) >= 4 {
-			sql := `select id,title,size,type, size_int from thesis_title where title like ? and title like ? and title like ?  and title like ? limit ?,?`
+			sql := `select id,title,size,type, size_int from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc") and title like ? and title like ? and title like ?  and title like ? limit ?,?`
 			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", "%"+theisNameList[2]+"%", "%"+theisNameList[3]+"%",
 				(pageIndexInt-1)*pageNumberInt, pageNumberInt)
 			if err != nil {
@@ -88,7 +103,7 @@ func main() {
 				return
 			}
 			// 4、查询总数
-			sql = `select count(*) count from thesis_title where title like ? and title like ? and title like ?  and title like ? `
+			sql = `select count(*) count from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc") and title like ? and title like ? and title like ?  and title like ? `
 			err = mysql.Db.Get(&count, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", "%"+theisNameList[2]+"%", "%"+theisNameList[3]+"%")
 			if err != nil {
 				fmt.Printf("get failed, err:%v\n", err)
@@ -96,14 +111,14 @@ func main() {
 			}
 		}
 		if len(theisNameList) == 3 {
-			sql := `select id,title,size,type, size_int from thesis_title where title like ? and title like ? and title like ? limit ?,?`
+			sql := `select id,title,size,type, size_int from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc") and title like ? and title like ? and title like ? limit ?,?`
 			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", "%"+theisNameList[2]+"%", (pageIndexInt-1)*pageNumberInt, pageNumberInt)
 			if err != nil {
 				fmt.Printf("query failed, err:%v\n", err)
 				return
 			}
 			// 4、查询总数
-			sql = `select count(*) count from thesis_title where title like ? and title like ? and title like ?`
+			sql = `select count(*) count from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc") and title like ? and title like ? and title like ?`
 			err = mysql.Db.Get(&count, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", "%"+theisNameList[2]+"%")
 			if err != nil {
 				fmt.Printf("get failed, err:%v\n", err)
@@ -111,14 +126,14 @@ func main() {
 			}
 		}
 		if len(theisNameList) == 2 {
-			sql := `select id,title,size,type, size_int from thesis_title where title like ? and title like ? limit ?,?`
+			sql := `select id,title,size,type, size_int from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc") and title like ? and title like ? limit ?,?`
 			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%", (pageIndexInt-1)*pageNumberInt, pageNumberInt)
 			if err != nil {
 				fmt.Printf("query failed, err:%v\n", err)
 				return
 			}
 			// 4、查询总数
-			sql = `select count(*) count from thesis_title where title like ? and title like ? `
+			sql = `select count(*) count from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc") and title like ? and title like ? `
 			err = mysql.Db.Get(&count, sql, "%"+theisNameList[0]+"%", "%"+theisNameList[1]+"%")
 			if err != nil {
 				fmt.Printf("get failed, err:%v\n", err)
@@ -126,14 +141,14 @@ func main() {
 			}
 		}
 		if len(theisNameList) == 1 {
-			sql := `select id,title,size,type, size_int from thesis_title where title like ? limit ?,?`
+			sql := `select id,title,size,type, size_int from thesis_title where ( title like '%.pdf' or title like '%.docx' or title like '%.doc') and title like ? limit ?,?`
 			err = mysql.Db.Select(&thesisList, sql, "%"+theisNameList[0]+"%", (pageIndexInt-1)*pageNumberInt, pageNumberInt)
 			if err != nil {
 				fmt.Printf("query failed, err:%v\n", err)
 				return
 			}
 			// 4、查询总数
-			sql = `select count(*) count from thesis_title where title like ?`
+			sql = `select count(*) count from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc") and title like ?`
 			err = mysql.Db.Get(&count, sql, "%"+theisNameList[0]+"%")
 			if err != nil {
 				fmt.Printf("get failed, err:%v\n", err)
@@ -141,7 +156,7 @@ func main() {
 			}
 		}
 		if len(theisNameList) == 0 {
-			sql := `select id,title,size,type, size_int from thesis_title limit ?,?`
+			sql := `select id,title,size,type, size_int from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc") limit ?,?`
 			err = mysql.Db.Select(&thesisList, sql, (pageIndexInt-1)*pageNumberInt, pageNumberInt)
 			if err != nil {
 				fmt.Printf("query failed, err:%v\n", err)
@@ -149,7 +164,7 @@ func main() {
 			}
 
 			// 4、查询总数
-			sql = `select count(*) count from thesis_title`
+			sql = `select count(*) count from thesis_title where ( title like "%.pdf" or title like "%.docx" or title like "%.doc")`
 			err = mysql.Db.Get(&count, sql)
 			if err != nil {
 				fmt.Printf("get failed, err:%v\n", err)
@@ -169,6 +184,41 @@ func main() {
 			"pageIndex":  pageIndexInt,
 			"status":     200,
 			"msg":        "获取成功",
+		})
+	})
+
+	r.GET("/download", Cors, func(c *gin.Context) {
+		// 1、获取文件名
+		value := c.Query("search")
+		if value == "" {
+			return
+		}
+		// 2、在网盘中搜索文件
+		xpanfilesearch := LjsMyXpanfilesearch(value)
+		if len(xpanfilesearch.List) <= 0 {
+			fmt.Println("没有需要下载的文件")
+			return
+		}
+		fsids := "["
+		for i := 0; i < len(xpanfilesearch.List) && i < 100; i++ {
+			fsids += strconv.FormatUint(xpanfilesearch.List[i].Fsid, 10) + ","
+		}
+		fsids = fsids[0 : len(fsids)-1]
+		fsids += "]"
+		// 3、提供文件名和下载链接
+		res := LjsXpanmultimediafilemetas(fsids)
+		d := []DownRes{}
+		for _, v := range res.List {
+			item := DownRes{
+				Name: v.Filename,
+				Url:  v.Dlink,
+			}
+			d = append(d, item)
+		}
+		c.JSON(200, gin.H{
+			"data":   d,
+			"status": 200,
+			"msg":    "获取成功",
 		})
 	})
 
@@ -196,4 +246,71 @@ func Cors(context *gin.Context) {
 		return
 	}
 	context.Next()
+}
+
+// 搜索文件 string |  搜索的关键字
+// 获取文件列表
+func LjsMyXpanfilesearch(key string) download.FileMetasReturn {
+	// 1、搜索文件
+	accessToken := MyAccessToken // string |
+	web := "1"                   // string |  (optional)
+	num := "500"                 // string |  默认为500，不能修改
+	page := "1"                  // string |  页数，从1开始，缺省则返回所有条目
+	dir := "/"                   // string |  搜索目录，默认根目录
+	recursion := "1"             // string |  是否递归搜索子目录 1:是，0:否（默认）
+	configuration := openapi.NewConfiguration()
+	api_client := openapi.NewAPIClient(configuration)
+	_, r, err := api_client.FileinfoApi.Xpanfilesearch(context.Background()).
+		AccessToken(accessToken).Web(web).Num(num).Page(page).
+		Dir(dir).Recursion(recursion).Key(key).Execute()
+
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error when calling `FileinfoApi.Xpanfilesearch``: %v\n", err)
+		fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
+	}
+
+	bodyBytes, err := ioutil.ReadAll(r.Body)
+
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "err: %v\n", r)
+	}
+
+	fileMetasData := download.FileMetasReturn{}
+	err = json.Unmarshal(bodyBytes, &fileMetasData)
+
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "err: %v\n", r)
+	}
+	return fileMetasData
+
+	//bodyString := string(bodyBytes)
+	//fmt.Fprintf(os.Stdout, "Response from `FileinfoApi.Xpanfilesearch`: %v body: %v\n", r, bodyString)
+	//fmt.Fprintf(os.Stdout, "Response from `FileinfoApi.Xpanfilesearch`: %v\n", resp)
+}
+
+// 查询文件信息 获取下载地址dlink
+func LjsXpanmultimediafilemetas(fsidstr string) download.FileMetasReturn {
+	accessToken := MyAccessToken // string
+	thumb := "1"                 // string |  (optional)
+	extra := "1"                 // string |  (optional)
+	//fsids := "[1103236387625589,1101724761997348]" // 文件id数组，数组中元素是uint64类型，数组大小上限是：100
+	dlink := "1" // 是否需要下载地址，0为否，1为是，默认为0。获取到dlink后，参考下载文档进行下载操作
+	//aa := strings(fsids)
+
+	configuration := openapi.NewConfiguration()
+	api_client := openapi.NewAPIClient(configuration)
+	_, r, err := api_client.MultimediafileApi.Xpanmultimediafilemetas(context.Background()).AccessToken(accessToken).
+		Thumb(thumb).Extra(extra).Fsids(fsidstr).Dlink(dlink).Execute()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error when calling `MultimediafileApi.Xpanmultimediafilemetas``: %v\n", err)
+		fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
+	}
+	bodyBytes, err := ioutil.ReadAll(r.Body)
+	fileMetasData := download.FileMetasReturn{}
+	err = json.Unmarshal(bodyBytes, &fileMetasData)
+
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "err: %v\n", r)
+	}
+	return fileMetasData
 }
