@@ -11,6 +11,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 	"thesis_title/downloadsdk/download"
@@ -187,7 +188,7 @@ func main() {
 		})
 	})
 
-	r.GET("/download", Cors, func(c *gin.Context) {
+	r.GET("/get_url", Cors, func(c *gin.Context) {
 		// 1、获取文件名
 		value := c.Query("search")
 		log.Printf("downloadName=%s", value)
@@ -208,22 +209,29 @@ func main() {
 		fsids += "]"
 		// 3、提供文件名和下载链接
 		res := LjsXpanmultimediafilemetas(fsids)
-		d := []DownRes{}
-		for _, v := range res.List {
-			item := DownRes{
-				Name: v.Filename,
-				Url:  v.Dlink,
-			}
-			d = append(d, item)
-		}
-		if len(d) > 0 {
-			log.Printf("download suc")
-		}
 		c.JSON(200, gin.H{
-			"data":   d,
+			"data":   res,
 			"status": 200,
 			"msg":    "获取成功",
 		})
+	})
+
+	// 获取文件
+	r.GET("/get_file", Cors, func(c *gin.Context) {
+		// 获取当前文件路径
+		dir, _ := os.Getwd()
+		if path := c.Query("path"); path != "" {
+			//target := filepath.Join(dir, path)
+			target := filepath.Join(dir, "app01.log")
+			fmt.Println(target)
+			c.Header("Content-Description", "File Transfer")
+			c.Header("Content-Transfer-Encoding", "binary")
+			c.Header("Content-Disposition", "attachment;filename="+path)
+			c.Header("content-type", "application/octet-stream;charset=utf-8")
+			c.File(target)
+		} else {
+			c.Status(http.StatusNotFound)
+		}
 	})
 
 	// 启动HTTP服务，默认在0.0.0.0:8080启动服务
@@ -293,7 +301,7 @@ func LjsMyXpanfilesearch(key string) download.FileMetasReturn {
 }
 
 // 查询文件信息 获取下载地址dlink
-func LjsXpanmultimediafilemetas(fsidstr string) download.FileMetasReturn {
+func LjsXpanmultimediafilemetas(fsidstr string) []DownRes {
 	accessToken := MyAccessToken // string
 	thumb := "1"                 // string |  (optional)
 	extra := "1"                 // string |  (optional)
@@ -316,5 +324,18 @@ func LjsXpanmultimediafilemetas(fsidstr string) download.FileMetasReturn {
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "err: %v\n", r)
 	}
-	return fileMetasData
+	d := []DownRes{}
+
+	for _, v := range fileMetasData.List {
+		// 下载文件
+		download.Download(accessToken, v.Dlink, v.Filename)
+		// 获取地址
+		//pwd, _ := os.Getwd()
+		// 拼接数据
+		d = append(d, DownRes{
+			Name: v.Filename,
+			Url:  v.Filename,
+		})
+	}
+	return d
 }
