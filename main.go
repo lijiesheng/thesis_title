@@ -221,8 +221,8 @@ func main() {
 		// 获取当前文件路径
 		dir, _ := os.Getwd()
 		if path := c.Query("path"); path != "" {
-			//target := filepath.Join(dir, path)
-			target := filepath.Join(dir, "app01.log")
+			target := filepath.Join(dir, path)
+			//target := filepath.Join(dir, "app01.log")
 			fmt.Println(target)
 			c.Header("Content-Description", "File Transfer")
 			c.Header("Content-Transfer-Encoding", "binary")
