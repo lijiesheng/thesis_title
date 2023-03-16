@@ -223,7 +223,7 @@ func main() {
 		if path := c.Query("path"); path != "" {
 			target := filepath.Join(dir, path)
 			//target := filepath.Join(dir, "app01.log")
-			fmt.Println(target)
+			log.Println(target)
 			c.Header("Content-Description", "File Transfer")
 			c.Header("Content-Transfer-Encoding", "binary")
 			c.Header("Content-Disposition", "attachment;filename="+path)
