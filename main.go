@@ -190,6 +190,7 @@ func main() {
 	r.GET("/download", Cors, func(c *gin.Context) {
 		// 1、获取文件名
 		value := c.Query("search")
+		log.Printf("downloadName=%s", value)
 		if value == "" {
 			return
 		}
@@ -214,6 +215,9 @@ func main() {
 				Url:  v.Dlink,
 			}
 			d = append(d, item)
+		}
+		if len(d) > 0 {
+			log.Printf("download suc")
 		}
 		c.JSON(200, gin.H{
 			"data":   d,
