@@ -328,7 +328,8 @@ func LjsXpanmultimediafilemetas(fsidstr string) []DownRes {
 
 	for _, v := range fileMetasData.List {
 		// 下载文件
-		download.Download(accessToken, v.Dlink, v.Filename)
+		//download.Download(accessToken, v.Dlink, v.Filename)
+		download.Download(accessToken, v.Dlink, "../logs/fanlai/"+v.Filename)
 		// 获取地址
 		//pwd, _ := os.Getwd()
 		// 拼接数据
