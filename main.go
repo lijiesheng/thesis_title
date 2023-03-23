@@ -11,7 +11,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"path/filepath"
 	"strconv"
 	"strings"
 	"thesis_title/downloadsdk/download"
@@ -218,20 +217,21 @@ func main() {
 
 	// 获取文件
 	r.GET("/get_file", Cors, func(c *gin.Context) {
-		// 获取当前文件路径
-		dir, _ := os.Getwd()
-		if path := c.Query("path"); path != "" {
-			target := filepath.Join(dir, path)
-			//target := filepath.Join(dir, "app01.log")
-			log.Println(target)
-			c.Header("Content-Description", "File Transfer")
-			c.Header("Content-Transfer-Encoding", "binary")
-			c.Header("Content-Disposition", "attachment;filename="+path)
-			c.Header("content-type", "application/octet-stream;charset=utf-8")
-			c.File(target)
-		} else {
-			c.Status(http.StatusNotFound)
-		}
+		c.Status(http.StatusNotFound)
+		//// 获取当前文件路径
+		//dir, _ := os.Getwd()
+		//if path := c.Query("path"); path != "" {
+		//	target := filepath.Join(dir, path)
+		//	//target := filepath.Join(dir, "app01.log")
+		//	log.Println(target)
+		//	c.Header("Content-Description", "File Transfer")
+		//	c.Header("Content-Transfer-Encoding", "binary")
+		//	c.Header("Content-Disposition", "attachment;filename="+path)
+		//	c.Header("content-type", "application/octet-stream;charset=utf-8")
+		//	c.File(target)
+		//} else {
+		//	c.Status(http.StatusNotFound)
+		//}
 	})
 
 	// 启动HTTP服务，默认在0.0.0.0:8080启动服务
